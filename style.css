@@ -1,4 +1,47 @@
-body {background-color:tan;}
-h1{color:green;}
+body{
+    background-color:black;
+    font-family: arial;
+    color: white;
+}
+h1{
+    color: #303841;
+    font-family: Verdana;
+}
 
+/*to aling the div to the center i had it to add extra line in the css*/
+/*I added more things to make it look nice*/
+.maindiv{
+    background-color: #D6E6F2;
+    color: black;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    border: 25px;
+    margin: auto;
+    padding: 10px;
+}
 
+.maindiv input[type=number]{
+    text-align: center;
+}
+.maindiv select{
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.maindiv button{
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    color: #000000;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.maindiv button:hover {
+    background-color: #000000;
+    color: #F5F5F5;
+
+}
