@@ -19,14 +19,36 @@ h1{
     border: 25px;
     margin: auto;
     padding: 10px;
+    box-shadow: 10px 10px 5px gold;
+  
+  
 }
 
-.maindiv input[type=number]{
+ .setup{
+    justify-content: flex-start;
+   justify-content: space-between; 
+}
+
+label{
+     width: 150px;
+     display: inline-block;
+     
+}
+
+
+.maindiv input[type=number], .select, .input[type=range]{
+    padding: 5px 10px;
+    width: 20%;
+    text-align: center;
+    background-color: #F5F5F5;
+    
+   
+}
+.maindiv input[type=range]{
     text-align: center;
 }
 .maindiv select{
     width: 20%;
-    padding: 5px;
     text-align: center;
     background-color: #F5F5F5;
 }
